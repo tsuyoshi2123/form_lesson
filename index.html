@@ -34,14 +34,14 @@
                   名字
                   <span class="alert">※</span>
                 </p>
-                <input type="text" name="last_name"  class="input-init input-area" required>
+                <input type="text" name="first_name" class="input-init input-area" required>
               </div>
               <div class="name is-halfWidth">
                 <p class="label-text">
                   名前
                   <span class="alert">※</span>
                 </p>
-                <input type="text" name="last_name"  class="input-init input-area" required>
+                <input type="text" name="last_name" class="input-init input-area" required>
               </div>
             </div>
             <!-- 性別 -->
@@ -73,10 +73,10 @@
               <p class="label-text">出身</p>
               <div class="select-area">
                 <select name="origin" id="origin" class="input-init input-area origin-input">
-                  <option value="">東京</option>
-                  <option value="">千葉</option>
-                  <option value="">埼玉</option>
-                  <option value="">神奈川</option>
+                  <option value="tokyo">東京</option>
+                  <option value="chiba">千葉</option>
+                  <option value="saitama">埼玉</option>
+                  <option value="kanagawa">神奈川</option>
                 </select>
               </div>
             </div>
@@ -104,7 +104,7 @@
               <p class="label-text">パスワード(確認用)
                 <span class="alert">※</span>
               </p>
-              <input type="password" class="input-init input-area is-fullWidth" name="password-confirm">
+              <input type="password" class="input-init input-area is-fullWidth" name="password-confirm" required>
             </div>
             <!-- 希望コース -->
             <div class="row">
@@ -129,7 +129,7 @@
             </div>
             <!-- 送信ボタン -->
             <div class="row">
-              <input type="submit" value="アカウント作成" class="input-init button submit-btn is-fullWidth  button-push">
+              <input type="submit" value="アカウント作成" class="input-init button submit-btn is-fullWidth button-push">
             </div>
             <p class="agreement">アカウントを作成することにより、<a class="link-color" href="#">利用規約</a>と<a class="link-color" href="#">プライバシーポリシー</a>に同意するものとします。</p>
           </form>

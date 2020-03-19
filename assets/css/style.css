@@ -217,7 +217,7 @@
   border-radius: 50%;
 }
 
-.gender-input:checked+.radio-text::after {
+.gender-input:checked + .radio-text::after {
   content: '';
   position: absolute;
   left: 4px;
@@ -278,7 +278,7 @@
   border: 1px solid #d9d9d9;
 }
 
-.input-decoration:checked+.course-option-text::after {
+.input-decoration:checked + .course-option-text::after {
   content: '';
   position: absolute;
   left: 6px;
@@ -301,12 +301,6 @@
 
 .button-push {
   border: none;
-}
-
-.button-push:focus {
-  background-color: #fff;
-  border-color: rgba(59, 133, 133, .4);
-  box-shadow: 0 0 0 2px rgba(1, 191, 189, .1);
 }
 
 .submit-btn {
