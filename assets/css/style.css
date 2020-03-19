@@ -30,6 +30,7 @@
 
 .input-area {
   outline: none;
+  text-decoration: none;
 }
 
 .input-area:focus {
@@ -65,10 +66,6 @@
 .columns {
   display: flex;
   margin-bottom: 8px;
-}
-
-.button-init {
-  text-decoration: none;
 }
 
 .button {
@@ -254,6 +251,7 @@
 .input-init {
   -webkit-appearance: none;
   resize: none;
+  outline: none;
 }
 
 /* 希望コース */
@@ -301,6 +299,16 @@
   height: 100px;
 }
 
+.button-push {
+  border: none;
+}
+
+.button-push:focus {
+  background-color: #fff;
+  border-color: rgba(59, 133, 133, .4);
+  box-shadow: 0 0 0 2px rgba(1, 191, 189, .1);
+}
+
 .submit-btn {
   padding: 13px;
   background-color: #01bfbd;
@@ -311,6 +319,11 @@
   background-color: #01a6a4;
 }
 
+.submit-btn:active {
+  background-color: #fff;
+  color: #01a6a4;
+  border: 1px solid #d9d9d9;
+}
 
 .agreement {
   font-size: 12px;
@@ -333,6 +346,10 @@
   margin-bottom: 8px;
   line-height: 16px;
   font-size: 12px;
+}
+
+.is-resend {
+  display: inline-block;
 }
 
 .foot-side-text:hover {

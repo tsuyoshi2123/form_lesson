@@ -16,10 +16,10 @@
           <h1 class="main-title">アカウント作成</h1>
           <div class="columns">
             <div class="column is-halfwidth">
-              <a href="" class="button-init button is-fullWidth is-facebook">Facebookでスタート</a>
+              <a href="#" class="button-init button is-fullWidth is-facebook">Facebookでスタート</a>
             </div>
             <div class="column is-halfwidth">
-              <a href="" class="button-init button is-fullWidth is-google">Googleでスタート</a>
+              <a href="#" class="button-init button is-fullWidth is-google">Googleでスタート</a>
             </div>
           </div>
           <p class="is-defaultText Supplement-text">タイムラインへ投稿を行うことや、アカウント情報を伝えることはありません。</p>
@@ -49,19 +49,19 @@
               <p class="label-text is-fullWidth">性別</p>
               <div class="gender-contents">
                 <label class="gender-content">
-                  <input type="radio" name="gender" value="male" class="gender-input">
+                  <input type="radio" name="gender" value="man" class="gender-input">
                   <span class="radio-text">
                     男性
                   </span>
                 </label>
                 <label class="gender-content">
-                  <input type="radio" name="gender" value="male" class="gender-input">
+                  <input type="radio" name="gender" value="woman" class="gender-input">
                   <span class="radio-text">
                     女性
                   </span>
                 </label>
                 <label class="gender-content">
-                  <input type="radio" name="gender" value="male" class="gender-input">
+                  <input type="radio" name="gender" value="other" class="gender-input">
                   <span class="radio-text">
                     その他
                   </span>
@@ -85,7 +85,7 @@
               <p class="label-text">Eメール
                 <span class="alert">※</span>
               </p>
-              <input type="email" class="input-init input-area is-fullWidth" name="email" placeholder="ex) hoge@example.com">
+              <input type="email" class="input-init input-area is-fullWidth" name="email" placeholder="ex) hoge@example.com" required>
             </div>
             <!-- 電話番号 -->
             <div class="row tell">
@@ -97,7 +97,7 @@
               <p class="label-text">パスワード
                 <span class="alert">※</span>
               </p>
-              <input type="password" class="input-init input-area is-fullWidth" name="password">
+              <input type="password" class="input-init input-area is-fullWidth" name="password" required>
             </div>
             <!-- 確認チェック -->
             <div class="row course">
@@ -129,16 +129,16 @@
             </div>
             <!-- 送信ボタン -->
             <div class="row">
-              <input type="submit" value="アカウント作成" class="input-init button submit-btn is-fullWidth">
+              <input type="submit" value="アカウント作成" class="input-init button submit-btn is-fullWidth  button-push">
             </div>
-            <p class="agreement">アカウントを作成することにより、<a class="link-color" href="">利用規約</a>と<a class="link-color" href="">プライバシーポリシー</a>に同意するものとします。</p>
+            <p class="agreement">アカウントを作成することにより、<a class="link-color" href="#">利用規約</a>と<a class="link-color" href="#">プライバシーポリシー</a>に同意するものとします。</p>
           </form>
         </div>
         <div class="foot-part">
           <p class="resend-mail">すでにアカウントをお持ちですか？ 
-            <a class="link-color foot-side-text" href="">ログイン</a>
+            <a class="link-color foot-side-text resend-mail" href="#">ログイン</a>
           </p>
-          <a class="link-color resend-mail foot-side-text" href="">認証メールが届きませんか？</a>
+          <a class="link-color is-resend resend-mail foot-side-text" href="#">認証メールが届きませんか？</a>
         </div>
       </div>
     </section>
